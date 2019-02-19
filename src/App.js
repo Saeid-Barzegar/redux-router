@@ -9,14 +9,11 @@ import Nav from './components/Nav'
       if you dont use this method Your Router Not works
     "
 */
-import { Switch, Route, withRouter } from 'react-router-dom'
+import { withRouter } from 'react-router-dom'
+import Router from './router/router'
+
 // import connect from react-redux to map state to component props
 import { connect } from "react-redux";
-
-// import components for call in Routes
-import Home from './components/Home'
-import About from './components/About'
-import Contact from './components/Contact'
 
 
 class App extends Component {
@@ -29,12 +26,7 @@ class App extends Component {
         <hr />
         <span>Programmer: {information.name}</span>
         <hr />
-        {/* make Main Router */}
-        <Switch>
-          <Route path="/" component={Home} exact />
-          <Route path="/about" component={About} />
-          <Route path="/contact" component={Contact} />
-        </Switch>
+        <Router />
       </div>
     );
   }
