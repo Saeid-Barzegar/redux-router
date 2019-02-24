@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 //import navigation Menu
-import Nav from './components/Nav'
+import Nav from './components/navigation/Nav'
 /* 
     Switch and Route imported to make Main Router
     Notice:

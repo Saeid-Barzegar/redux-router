@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 //import and use Link from react router to make links and navigate routes
-import { NavLink } from "react-router-dom";
-import routes from '../router/routes'
+import routes from '../../router/routes'
 import NavItem from './NavItem'
 
 
