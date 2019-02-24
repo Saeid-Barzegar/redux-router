@@ -1,0 +1,16 @@
+body{
+    font-family: sans-serif;
+
+    .container{
+        margin: 10px 20px 10px 20px 
+    }
+    .navigation{
+        display: inline-block;
+
+        li{
+            float: left;
+            margin-right: 50px;
+            cursor: pointer;
+        }
+    }
+}
