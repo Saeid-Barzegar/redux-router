@@ -21,8 +21,13 @@ body{
                 cursor: pointer;
             }
 
+            
         }
 
-        
+               
+    }
+
+    .activeNav{
+        $color: $red !important;
     }
 }
