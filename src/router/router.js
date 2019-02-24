@@ -6,8 +6,9 @@ class router extends Component {
     render() {
         return (
             <Switch>
-                {routes.map(route =>
+                {routes.map((route, index) =>
                     <Route
+                        key={index}
                         path={route.path}
                         component={route.component}
                         exact={route.exact} />

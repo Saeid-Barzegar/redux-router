@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 //import Component
 import App from "./App";
 //import Style
-import './assets/Style.scss'
+import './assets/scss/Style.scss'
 //import Router
 import { BrowserRouter as Router } from 'react-router-dom'
 //import Redux

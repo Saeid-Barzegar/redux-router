@@ -1,0 +1,28 @@
+@import "./module/colors";
+
+body{
+    font-family: sans-serif;
+
+    .container{
+        margin: 10px 20px 10px 20px 
+    }
+    .navigation{
+        display: inline-block;
+
+        a{
+            color: $olive;
+            &:hover{
+                color: $orange;
+            }
+
+            li{
+                float: left;
+                margin-right: 50px;
+                cursor: pointer;
+            }
+
+        }
+
+        
+    }
+}
