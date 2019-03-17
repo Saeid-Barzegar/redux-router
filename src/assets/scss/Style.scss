@@ -1,0 +1,33 @@
+@import "./module/colors";
+
+body{
+    font-family: sans-serif;
+
+    .container{
+        margin: 10px 20px 10px 20px 
+    }
+    .navigation{
+        display: inline-block;
+
+        a{
+            color: $green_700;
+            &:hover{
+                color: $orange_700;
+            }
+
+            li{
+                float: left;
+                margin-right: 50px;
+                cursor: pointer;
+            }
+
+            
+        }
+
+               
+    }
+
+    .activeLink{
+        $color: $red_700 !important;
+    }
+}

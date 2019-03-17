@@ -1,15 +1,20 @@
 import React, { Component } from 'react';
 //import and use Link from react router to make links and navigate routes
-import { Link } from "react-router-dom";
+import routes from '../../router/routes'
+import NavItem from './NavItem'
+
 
 class Nav extends Component {
     render() {
         return (
             <nav>
                 <ul className="navigation">
-                    <Link to="/"><li>Home</li></Link>
-                    <Link to="/about"><li>About</li></Link>
-                    <Link to="/contact"><li>Contact</li></Link>
+                    {routes.map((route, index) =>
+                        <NavItem
+                            key={index}
+                            {...route}
+                        />
+                    )}
                 </ul>
             </nav>
         );

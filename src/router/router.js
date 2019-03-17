@@ -6,11 +6,13 @@ class router extends Component {
     render() {
         return (
             <Switch>
-                {routes.map(route =>
+                {routes.map((route, index) =>
                     <Route
+                        key={index}
+                        exact={route.exact}
                         path={route.path}
                         component={route.component}
-                        exact={route.exact} />
+                    />
                 )}
             </Switch>
         );

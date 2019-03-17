@@ -1,4 +1,4 @@
-// import Components
+// import your Components
 import Home from '../components/Home'
 import About from '../components/About';
 import Contact from '../components/Contact'
@@ -7,18 +7,21 @@ const routes = [
     {
         path: "/",
         component: Home,
-        exact: true
+        exact: true,
+        label: "Home"
     },
 
     {
         path: "/about/",
         component: About,
-        exact: false
+        exact: false,
+        label: "About"
     },
     {
         path: "/contact/",
         component: Contact,
-        exact: false
+        exact: false,
+        label: "Contact"
     }
 ]
 
