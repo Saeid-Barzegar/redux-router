@@ -10,9 +10,9 @@ body{
         display: inline-block;
 
         a{
-            color: $olive;
+            color: $green_700;
             &:hover{
-                color: $orange;
+                color: $orange_700;
             }
 
             li{
@@ -28,6 +28,6 @@ body{
     }
 
     .activeLink{
-        $color: $red !important;
+        $color: $red_700 !important;
     }
 }
