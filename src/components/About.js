@@ -12,8 +12,6 @@ class About extends Component {
                 <p>My name is <strong>{information.name}</strong> and i'm <strong>{information.nationality}</strong> programmer</p>
                 <p>I'm here to say <strong>JavaScript</strong> changed My life</p>
                 <p>Thanks <strong><a href="https://github.com/sizmamani">Sajed</a></strong> :)</p>
-                <p>For Everything</p>
-
             </div>
         );
     }
