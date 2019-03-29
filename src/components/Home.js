@@ -6,7 +6,7 @@ class Home extends Component {
             <div>
                 <h1>Home Component</h1>
                 <hr />
-                <p>This is My First Successfull Exprience with React <strong>Router</strong> and <strong>Redux</strong></p>
+                <p>This is a simple pattern project with React <strong>Router</strong> and <strong>Redux</strong></p>
                 <p>It can be a nice Pattern to <strong>Beginners</strong></p>
             </div>
         );
